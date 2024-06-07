@@ -1,0 +1,12 @@
+.navbar {
+	height: 70px;
+	padding: 0 55px 0 55px !important;
+	background-color: #212529;
+	z-index: 1;
+}
+
+.navbar-brand {
+	margin-right: 0 !important;
+	padding: 0 !important;
+	color: #f0f0f0 !important;
+}

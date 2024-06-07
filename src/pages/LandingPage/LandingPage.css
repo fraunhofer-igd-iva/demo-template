@@ -1,0 +1,91 @@
+.page-container {
+	height: calc(100% - 40px); /* Footer has 40px height */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	overflow-y: auto;
+	padding: 3rem 0;
+}
+
+.page-container h1 {
+	margin-bottom: 1.5rem;
+	font-size: 7em;
+}
+
+.page-container h2 {
+	font-weight: 400;
+	margin-bottom: 3rem;
+}
+
+.page-container a.button {
+	margin-bottom: 5rem;
+	padding: 1rem 2rem;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-radius: 8px;
+	color: #f0f0f0;
+	background-color: #212529;
+}
+
+.page-container a:hover,
+.inner-demo-tooltip a:hover {
+	text-decoration: none;
+}
+
+.publication {
+	width: 100%;
+	display: flex;
+}
+
+.publication > div {
+	width: 50%;
+}
+
+img {
+	float: right;
+	margin-right: 10px;
+	border-radius: 5px;
+	box-shadow:
+		0 4px 7px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#description {
+	display: flex;
+	align-items: center;
+}
+
+#description p {
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+
+.tooltip.show {
+	opacity: 1 !important;
+}
+
+.arrow-demo-tooltip {
+	margin-left: 10px;
+}
+
+.bs-tooltip-auto .arrow::before {
+	border-right-color: #f0f0f0 !important;
+}
+
+.inner-demo-tooltip {
+	position: relative !important;
+	max-width: 330px !important;
+	margin-left: 10px;
+	padding: 0.8rem !important;
+	color: #212529 !important;
+	background-color: #f0f0f0 !important;
+	text-align: left !important;
+}
+
+#tooltip-close {
+	float: right;
+	cursor: pointer;
+}
